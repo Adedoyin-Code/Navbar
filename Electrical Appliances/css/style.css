@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+
+/* home */
+
+.a{
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 600;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ /* navbar */
+ #navbar{
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+ }
+ 
+ .navbar{
+    background: rgb(146, 21, 146);
+ }
+ #navbar .nav-item:hover .nav-link{
+    color: orange!important;
+ }
+  #navbar .dropdown-menu li:hover a {
+    color: orange;
+  }
+.c:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.e:hover{
+    color: orange;
+    cursor: pointer;
+}
+ 
